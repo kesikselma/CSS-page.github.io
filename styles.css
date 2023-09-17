@@ -10,6 +10,11 @@ body {
     padding: 0; /* Elimina los márgenes y relleno predeterminados del cuerpo */
 }
 
+a {
+    /* Eliminar el subrayado */
+    text-decoration: none;
+}
+
 /* Estilos para el encabezado */
 header {
     background-color: #fff; /* Fondo blanco */
@@ -63,12 +68,11 @@ header {
 }
 
 /* Estilo para los botones de test */
-button {
+/* Estilo para los botones de cuestionario */
+.quiz-button {
     /* Hacer el botón más grande */
-    text-decoration: none; /* Elimina la subrayado del enlace */
     font-size: 1.5em;
     padding: 10px 20px;
-    
 
     /* Hacer el botón transparente y parecido al agua */
     background: rgba(0, 0, 0, 0.1);
@@ -76,7 +80,6 @@ button {
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     text-align: center;
-    
 
     /* Hacer el botón responsivo */
     display: block;
@@ -85,12 +88,13 @@ button {
 }
 
 /* Cambiar el estilo del botón cuando se pasa el cursor por encima */
-button:hover {
+.quiz-button:hover {
     background: rgba(0, 0, 0, 0.2);
 }
 
 /* Cambiar el estilo del botón cuando se hace clic en él */
-button:active {
+.quiz-button:active {
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
     transform: translateY(5px);
 }
+
