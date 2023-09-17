@@ -1,0 +1,63 @@
+/* Estilos para el contenedor principal */
+body {
+    font-family: "pf-videotext", sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0; /* Elimina los márgenes y relleno predeterminados del cuerpo */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #fff; /* Fondo blanco */
+    width: 100%;
+    padding: 20px 0; /* Agrega relleno superior e inferior al encabezado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra en el encabezado */
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    /* height: auto; (Elimina esta línea) */
+    max-width: 800px; /* Ancho máximo del perfil y detalles */
+    margin: 0 auto; /* Centra el perfil y detalles horizontalmente */
+}
+
+/* Estilos para la imagen de perfil */
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+    transition: transform 0.5s ease;
+}
+
+/* Define la transformación en el hover */
+.profile-image:hover {
+    transform: rotate(360deg);
+}
+
+/* Estilos para los detalles del perfil */
+.profile-details {
+    text-align: left;
+}
+
+/* Estilos para las tarjetas individuales */
+.css-topic-card {
+    /* Otras propiedades CSS para la tarjeta */
+    background-color: rgba(214, 191, 240, 0.708);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: box-shadow 0.3s ease; /* Agrega una transición suave a la sombra */
+    text-decoration: none; /* Elimina la subrayado del enlace */
+    color: #000; /* Cambia el color del texto del enlace a negro */
+}
+
+.css-topic-card:hover {
+    box-shadow: 0 0 10px rgb(115, 0, 255); /* Agrega una sombra verde al pasar el cursor */
+}
