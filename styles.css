@@ -61,3 +61,36 @@ header {
 .css-topic-card:hover {
     box-shadow: 0 0 10px rgb(115, 0, 255); /* Agrega una sombra verde al pasar el cursor */
 }
+
+/* Estilo para los botones de test */
+button {
+    /* Hacer el botón más grande */
+    text-decoration: none; /* Elimina la subrayado del enlace */
+    font-size: 1.5em;
+    padding: 10px 20px;
+    
+
+    /* Hacer el botón transparente y parecido al agua */
+    background: rgba(0, 0, 0, 0.1);
+    border: none;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    text-align: center;
+    
+
+    /* Hacer el botón responsivo */
+    display: block;
+    width: 100%;
+    max-width: 200px;
+}
+
+/* Cambiar el estilo del botón cuando se pasa el cursor por encima */
+button:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/* Cambiar el estilo del botón cuando se hace clic en él */
+button:active {
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+    transform: translateY(5px);
+}
